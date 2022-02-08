@@ -1,0 +1,312 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ff904c !important;
+}
+#my{
+zoom: 100%;
+}
+
+
+
+h4 {
+  font-size: 5vw;
+  text-align: center;
+}
+
+
+img {
+  height: 300px;
+  widows: 300px;
+   margin:auto;
+}
+
+
+
+#signUp {
+	margin-top: 10px;
+	padding: 0 20px 15px 20px;
+	border: 1px solid #bbb;
+}
+#signUp legend {
+	font-size: 2em;
+	font-weight: 200;
+	padding: 0 .2em;
+}
+#signUp label {
+	display: block;
+	padding-top: 1em;
+}
+#signUp label:first-of-type {
+	margin-top: -.9em;
+}
+#nameLabel {
+	margin-top: -1em;
+}
+#submit, #clearCookie {
+	display: block;
+	font-size: 1em;
+	color: #FFF;
+	text-transform: uppercase;
+	background: #a2a50d;
+	padding: .8em 1em .7em;
+	border: 0;
+	border-bottom: 3px solid #7d820c;
+	margin-top: 15px;
+}
+.textfield {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 14px;
+	padding: 7px;
+	background: #efefef;
+	border: 1px solid #bbb;
+	width: 97%;
+}
+.textfield:focus {
+	background: #FBF8D2;
+}
+
+h5 {
+  font-size: 69px;
+}
+
+h3 {
+  font-size:15px;
+  font-weight: bold;
+}
+* {
+  box-sizing: border-box;
+}
+
+
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  padding: 64px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column-66 {
+  float: left;
+  width: 100%;
+  padding: 20px;
+}
+
+.column-33 {
+  float: left;
+  width: 33.33333%;
+  padding: 20px;
+}
+
+.large-font {
+  font-size: 48px;
+}
+
+.xlarge-font {
+  font-size: 64px;
+}
+
+img {
+  display: block;
+  height: auto;
+  width: 400px;
+  height: 300px;
+}
+
+@media screen and (max-width: 1000px) {
+  .column-66,
+  .column-33 {
+    width: 100%;
+    text-align: center;
+  }
+  img {
+    margin: auto;
+  }
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.postimg.cc/xjtW7jzF/Alternate-Logo-2.png");
+  height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+/*
+#navbar {
+  background-color: rgba(50, 50, 50, 0.5);
+  color: #fff;
+  padding: 10px;
+/* Without the four declarations below (position, width, box-sizing, top), then hero area and navbar are at the top.  With them, there is a white bar on CodePen. On my site that top white bar is not there. */
+  /*position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  top 0;
+  z-index: 1001;
+}
+/*
+#navbar-flexbox {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+*/
+h1 {
+  margin-top: 0;
+  line-height: 1.5;
+}
+
+#footer {
+  background-color: #0f0;
+}
+
+#hero-arrow {
+  line-height: 5;
+}
+
+
+details {
+    border: 1px solid #d4d4d4;
+    padding: .75em .75em 0;
+	margin-top: 10px;
+	box-shadow:0 0 20px #d4d4d4;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+summary {
+    font-weight: bold;
+    margin: -.75em -.75em 0;
+    padding: auto;
+    background-color: #417BF4;
+    color: #fff;
+    text-align: center !important:;
+    color: #dfdfdf;
+    width: 100%;
+    height: 100%;
+    padding: 7px;
+}
+
+details[open] {
+    margin: -.75em -0.75em 0;
+    padding: auto;
+	border-bottom: 1px solid #d4d4d4;
+  margin-right:20%;
+  margin-left:20%
+
+
+}
+
+details[open] summary {
+    border-bottom: 1px solid #d4d4d4;
+    margin-bottom: 10px
+}
+
+#accordion {
+  text-align: center !important;
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 50%;
+}
+
+footer {
+  font-size: 12px !important;
+}
+
+#joe {
+  color: #ff904c;
+  font-size: 1px;
+}
+
+.active {
+  background-color: grey;
+}
+
+h3 {
+    text-align: center !important:;
+    display: block;
+}
+
+.size {
+  text-align: center;
+  color: white;
+}
+
+.btn {
+  background-color:transparent
+}
+nav {
+  position: sticky;
+  background-color: grey !important;
+  color: #fff;
+  padding: 10px;
+/* Without the four declarations below (position, width, box-sizing, top), then hero area and navbar are at the top.  With them, there is a white bar on CodePen. On my site that top white bar is not there. */
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  top 0;
+  z-index: 1001;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  background:transparent !important;
+  background-color:transparent !important;
+  border-color:transparent !important;
+}
+
+button {
+  display: inline;
+  float: right;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #fdfdfd;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+card-body {
+  border-style: inset;
+}
+
+
+.ball {
+  position: absolute;
+  border-radius: 36%;
+  opacity: 0.3;
+  margin-left:12%;
+  margin-right:0%;
+
+  }
+
+ol, ul {
+    padding-left: 0rem;
+}
